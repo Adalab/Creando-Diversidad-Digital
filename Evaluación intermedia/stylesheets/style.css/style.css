@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  color: inherit;
+  margin: 0;
+}
+
+:root {
+    --primary-font:font-family:'Rubik', sans-serif;
+    --primary-color:#4a4a4a;
+    --secondary-color:#3CDBC0;
+     --light-color--: #FFFFFF;
+  }
+  header, .main {border:  1px solid red ;}
+  
+  .main header {
+
+  }
+  
+  .imagen {
+    width: 155px;
+
+  }
+.menu-items{
+  list-style-type:none;
+  color:var(--primary-color);
+  font-size:16px;
+}
+
+.main-text {
+  color: var(--light-color--);
+  background-color: var(--secondary-color);
+  text-align: center;
+}
+
+
